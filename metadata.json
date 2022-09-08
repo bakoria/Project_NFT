@@ -1,0 +1,27 @@
+{
+    "attributes": [
+        {
+            "trait_type": "Background",
+            "value": "Blue_Yellow"
+        },
+        {
+            "trait_type": "Color",
+            "value": "Multi"
+        },
+        {
+            "trait_type": "Type",
+            "value": "Painting"
+        },
+        {
+            "trait_type": "Detail",
+            "value": "Scenery"
+        },
+        {
+            "trait_type": "Artist",
+            "value": "Dhruv_B"
+        }
+    ],
+    "description": "Text : Jb_First_NFT",
+    "image": "https://ipfs.io/ipfs/QmTjgNNBnjY24uHEAexnrWRzLmUtKgQfGURqxN9kHS2mY7",
+    "name": "Dhruv_First_Painting"
+  }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-content="IE=Edge" http-equiv="X-UA-Compatible">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JBworks-NFT</title>
+
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/ethereum/web3.js/dist/web3.min.js"></script>
+	<script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" 
+				type="application/javascript"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script src="index.js"></script>
+	<script src="abi.js"></script>
+	<link rel="stylesheet" href="style.css"></link>
+</head>
+
+<body onload="displayElement()">
+	<div class="banner">
+		<button class="button-8" role="button" id="connect" 
+        style="width:140px; float:right; margin-top: 10px; margin-right: 10%" 
+        onclick="Connect()">Connect Metamask</button>
+        <div style="font-size: 28px; margin-left: 10%">jbworks</div>
+		<div style="font-size: 14px; margin-left: 10%">nft-minting</div>
+        
+	</div><br>
+
+    <div style="margin-top: 50px;">
+        <div class="text" id="accountAddress">Account Address</div>
+        <div class="text" id="accountBalance">Account Balance</div>
+		<div class="text" id="accountNetwork">Account Network</div>
+		<br>
+
+     
+        <input class="center" id="cid" type="text" oninput="balance()" style="text-align: center; height:25px; width:300px; font-size: 12px;" placeholder="paste NFT metadata json URL"></input><br>
+        <button class="button-8" role="button" id="mintnft" style="margin-left: 45%; width:140px;" onclick = "minting()">Mint NFT</button>
+		<div class="text" id="txStatus"></div><br>
+
+    </div>
+
+	<div id="display" >
+		<img class="center" id="imglink" style="align-self: center;" alt="image_not_found" width="250" height="140">
+		<div class="text" id="tkName">Token Name</div>
+		<div class="text" id="tkID">Token ID</div>
+		<div class="text" id="tkStandard">Token Standard: ERC721</div>
+		<div class="text" id="tkAddress">Token Address</div>
+		<div class="text" id="tkNetwork">Network</div>
+	</div><br><br>
+
+	<div class="text"><p>To know, How to upload NFT and create it's json file <a href="file.html">Click Here!</a></p>
+	</div>
+
+		<div class="text" >copyright©jbworks2022</div>
+</body>
+</html>
